@@ -1,0 +1,44 @@
+.footer{
+    padding-top: 120px;
+}
+
+.container_footer{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 1377px;
+}
+
+.grid_footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,138px);
+    justify-items: stretch;
+    justify-content: center;
+    align-content: center;
+    align-items: end;
+    margin: -78px;
+}
+
+.coffe_footer{
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.img_footer{
+    width: 35px;
+    height: 34px;
+}
+
+.divider_footer{
+    width: 60px;
+    height: 0px;
+    border: 1px solid #000000;
+}
+
+.img_divider{
+    padding-top: 98px;
+}

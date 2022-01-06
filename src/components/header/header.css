@@ -1,0 +1,30 @@
+.header{
+    position: absolute;
+    width: 355px;
+    height: 40px;
+    margin: 30px 148px;
+}
+
+.text{
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    margin: 10px 10px;
+    color: #FFFFFF;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.img_header{
+    width: 35px;
+    height: 35px;
+ 
+}
+
+
+
