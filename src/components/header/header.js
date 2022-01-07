@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 import header from './vector.png';
@@ -6,14 +7,16 @@ import './header.css'
 
 const Header=()=>{
     return(
-             <div className="header">
+                 <div className="header">
             <a className="text" href="#">
                 <img src={header} alt="" className="img_header" />
                  Coffee house
                  </a>
             <a className="text" href="#">Our coffee</a>
-            <a className="text" href="#">For your pleasure</a>
+            <Link className="text" to={'/for your pleasure'}>For your pleasure</Link>
             </div>
+                
+             
         
        
     )

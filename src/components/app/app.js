@@ -4,6 +4,7 @@ import MainBg from "../mainbg";
 import AboutUs from "../aboutus";
 import Ourbest from "../ourbest";
 import Footer from "../footer";
+import ForYourPleasure from "../for_your_pleasure";
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import './app.css';
 
@@ -19,9 +20,7 @@ import './app.css';
                     <Ourbest/>
                     <Footer/>
                     <Routes>
-                            <Route>
-                                
-                            </Route>
+                            <Route path='/for your pleasure' element={<ForYourPleasure/>}/>          
                     </Routes>
                 </div>
             </Router>
