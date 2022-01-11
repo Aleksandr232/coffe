@@ -1,31 +1,20 @@
 import React from "react";
-import Header from "../header";
-import MainBg from "../mainbg";
-import AboutUs from "../aboutus";
-import Ourbest from "../ourbest";
-import Footer from "../footer";
 import ForYourPleasure from "../for_your_pleasure";
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import './app.css';
+import CoffeHouse from "../coffee house";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./app.css";
 
-
- const App=()=>{
-    
-        return(
-             <Router>
-                <div>
-                    <Header/> 
-                    <MainBg/>
-                    <AboutUs/>
-                    <Ourbest/>
-                    <Footer/>
-                    <Routes>
-                            <Route path='/for your pleasure' element={<ForYourPleasure/>}/>          
-                    </Routes>
-                </div>
-            </Router>
-            )    
-    
-}
+const App = () => {
+  return (
+    <Router>
+      <div>
+        <Routes>
+          <Route exact path="/" element={<CoffeHouse/>}></Route>
+          <Route path="for_your_pleasure" element={<ForYourPleasure />}></Route>
+        </Routes>
+      </div>
+    </Router>
+  );
+};
 
 export default App;
