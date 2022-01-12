@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../coffee house/header";
-import MainBg from "../mainbg";
+import MainBg from "../coffee house/mainbg";
 import AboutUs from "../coffee house/aboutus";
-import Ourbest from "../ourbest";
+import Ourbest from "../coffee house/ourbest";
 import Footer from "../coffee house/footer";
 
 

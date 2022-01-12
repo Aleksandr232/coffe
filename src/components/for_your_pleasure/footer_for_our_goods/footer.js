@@ -1,13 +1,12 @@
 import React from "react";
-
 import { Link } from "react-router-dom";
 
 import divider from './divider.png';
 import fo from './fo.png';
 
-import './footer.css';
 
-const Footer=()=>{
+
+const FooterOurGoods=()=>{
     return(
         <section className="footer">
             <div className="container_footer">
@@ -17,7 +16,7 @@ const Footer=()=>{
                     Coffee house
                     </Link>
                     <Link to="" className="coffe_footer">Our coffee</Link>
-                    <Link to="for_your_pleasure" className="coffe_footer">For your pleasure</Link>
+                    <Link to="" className="coffe_footer">For your pleasure</Link>
                 </div>
                 <img src={fo} alt="" className="img_divider"/>
             </div>
@@ -26,4 +25,4 @@ const Footer=()=>{
 }
 
 
-export default Footer;
+export default FooterOurGoods;

@@ -26,8 +26,8 @@ a{
  
 }
 
-.img{
-    background: url(../mainbg/img/desk.jpg)center center/cover no-repeat;
+.img_for{
+    background: url(coffee.jpg)center center/cover no-repeat;
 }
 
 .mainbg{
@@ -44,7 +44,7 @@ a{
     margin: 0 auto;
 }
 
-.title{
+.title_for{
     font-family: Merienda;
     font-style: normal;
     font-weight: bold;
@@ -82,4 +82,168 @@ a{
     cursor: pointer;
     opacity: 0.7;
     padding-top: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+.container_for_our_goods{
+    width: 1083px;
+    margin: 0 auto;
+}
+
+.grid_about_for_our_goods{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 337px);
+    justify-items: start;
+    justify-content: center;
+}
+
+
+
+.text_for_our_godds{
+    width: 513px;
+    height: 26px;
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+    text-align: center;
+    margin: 26px auto;
+}
+
+.title_for_our_goods{
+    width: 513px;
+    height: 26px;
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+    text-align: center;
+    
+}
+
+.divider_img_for_our_goods{
+    width: 29px;
+    height: 29px;
+    margin: 8px auto;
+}
+
+.divider_for_our_goods{
+    display:  block;
+    width: 240px;
+    height: 0px;
+    border: 1px solid #000000;
+    margin: 65px auto;        
+}
+
+.block_coffee{
+    width: 220px;
+    height: 260px;
+    background: #ffffff;
+    border-radius: 8px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
+}
+
+.grid_coffee{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 337px);
+    justify-items: start;
+    justify-content: center;
+    grid-gap: 35px;
+}
+
+.img_aromistico{
+    display: block;
+    margin: 37px auto;
+}
+
+.thecountry{
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    width: 329px;
+    height: 14px;
+}
+
+.price_coffee{
+    width: 333px;
+    height: 15px;
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin: 14px;
+}
+
+.name__coffee{
+    width: 222px;
+    height: 15px;
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 11px;
+}
+
+.footer{
+    padding-top: 120px;
+}
+
+.container_footer{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 1377px;
+}
+
+.grid_footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,138px);
+    justify-items: stretch;
+    justify-content: center;
+    align-content: center;
+    align-items: end;
+    margin: -78px;
+}
+
+.coffe_footer{
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.img_footer{
+    width: 35px;
+    height: 34px;
+}
+
+.divider_footer{
+    width: 60px;
+    height: 0px;
+    border: 1px solid #000000;
+}
+
+.img_divider{
+    padding-top: 98px;
 }
