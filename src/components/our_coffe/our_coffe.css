@@ -99,5 +99,15 @@
     font-size: 12px;
     line-height: 17px;
     text-align: center;
-    color: #000000;
+    color: #000;
+}
+
+#braz{
+    width: 167px;
+    height: 115px;
+}
+
+a{
+    color:#000000;
+    text-decoration: none;
 }

@@ -3,6 +3,8 @@ import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 import Brazil from "../brazil";
 import All from "../All";
+import Kenya from "../kenya";
+import Columbia from "../columbia";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -43,11 +45,11 @@ const AboutOurCoffe=()=>(
         <Tab eventKey="home" title="Brazil">
             <Brazil/>
         </Tab>
-        <Tab eventKey="contact" title="Columbia" >
-            
+        <Tab eventKey="contact" title="Kenya">
+            <Kenya/>
         </Tab>
-        <Tab eventKey="contact" title="Columbia" >
-            
+        <Tab eventKey="contact_1" title="Columbia" >
+            <Columbia/>
         </Tab>
         </Tabs>
     </div>
