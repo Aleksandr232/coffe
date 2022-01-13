@@ -16,7 +16,6 @@ const MainBg=()=>{
             <div className="sub_title">
                 <h2>Want to try our beans?</h2>
             </div>
-            <button className="btn">More</button>
         </div>
         </section>
     )

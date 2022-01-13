@@ -1,4 +1,11 @@
 import React from "react";
+import Tabs from 'react-bootstrap/Tabs'
+import Tab from 'react-bootstrap/Tab'
+import Brazil from "../brazil";
+import All from "../All";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import cv from './cv.png';
 import girl from './girl.jpg';
@@ -29,7 +36,20 @@ const AboutOurCoffe=()=>(
         </div>
 
         <div className="divider_our_coffe"></div>
-
+        <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
+        <Tab eventKey="profile" title="All">
+            <All/>
+           </Tab>
+        <Tab eventKey="home" title="Brazil">
+            <Brazil/>
+        </Tab>
+        <Tab eventKey="contact" title="Columbia" >
+            
+        </Tab>
+        <Tab eventKey="contact" title="Columbia" >
+            
+        </Tab>
+        </Tabs>
     </div>
 )
 

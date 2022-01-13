@@ -15,7 +15,7 @@
     justify-items: stretch;
     justify-content: center;
     align-content: center;
-    align-items: end;
+    align-items: baseline;
     margin: -78px;
 }
 
@@ -27,6 +27,8 @@
     line-height: 17px;
     color: #000000;
 }
+
+
 
 .img_footer{
     width: 35px;
@@ -42,3 +44,5 @@
 .img_divider{
     padding-top: 98px;
 }
+
+

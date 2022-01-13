@@ -13,12 +13,11 @@
     line-height: 17px;
     margin: 10px 10px;
     color: #FFFFFF;
+    text-decoration: none;
     
 }
 
-a{
-    text-decoration: none;
-}
+
 
 .img_header{
     width: 35px;
@@ -40,6 +39,7 @@ a{
     grid-template-columns: repeat(auto-fit, 337px);
     justify-items: start;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .text_our_coffe{
@@ -80,4 +80,24 @@ a{
     height: 0px;
     border: 1px solid #000000;
     margin: 144px auto;        
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    justify-content: flex-end;
+    margin: -100px 0;
+}
+
+.nav-link{
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
 }
