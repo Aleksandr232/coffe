@@ -16,7 +16,7 @@ const Footer=()=>{
                     <img src={divider} alt="" className="img_footer"/>
                     Coffee house
                     </Link>
-                    <Link to="" className="coffe_footer">Our coffee</Link>
+                    <Link to="our_coffe" className="coffe_footer">Our coffee</Link>
                     <Link to="for_your_pleasure" className="coffe_footer">For your pleasure</Link>
                 </div>
                 <img src={fo} alt="" className="img_divider"/>

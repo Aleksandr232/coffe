@@ -10,7 +10,7 @@ const HeaderForOurGoods = () => {
         <img src={vector} alt="" className="img_header" />
         Coffee house
       </Link>
-      <Link className="text" to="">
+      <Link className="text" to="/our_coffe">
         Our coffee
       </Link>
       <Link className="text" to="">
