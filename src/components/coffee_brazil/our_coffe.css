@@ -1,0 +1,113 @@
+.header{
+    position: absolute;
+    width: 355px;
+    height: 40px;
+    margin: 30px 148px;
+}
+
+.text{
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    margin: 10px 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
+
+
+.img_header{
+    width: 35px;
+    height: 35px;
+ 
+}
+
+.img_our_coffe{
+    background: url(coffeeshop.jpg)center center/cover no-repeat;
+}
+
+.container_our_coffe{
+    width: 1083px;
+    margin: 0 auto;
+}
+
+.grid_our_coffe{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 337px);
+    justify-items: start;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.text_our_coffe{
+    width: 513px;
+    height: 26px;
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+    text-align: center;
+    margin: 26px auto;
+}
+
+.title_our_coffe{
+    width: 513px;
+    height: 26px;
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+    text-align: center;
+    
+}
+
+.divider_img_our_coffe{
+    width: 29px;
+    height: 29px;
+    margin: 8px auto;
+}
+
+.divider_our_coffe{
+    display:  block;
+    width: 240px;
+    height: 0px;
+    border: 1px solid #000000;
+    margin: 144px auto;        
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    justify-content: flex-end;
+    margin: -100px 0;
+}
+
+.nav-link{
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    color: #000;
+}
+
+#braz{
+    width: 167px;
+    height: 115px;
+}
+
+a{
+    color:#000000;
+    text-decoration: none;
+}
