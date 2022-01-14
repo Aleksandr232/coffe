@@ -3,7 +3,7 @@ import React from "react";
 
 
 import cv from './cv.png';
-import brazil from './brazil.jpg';
+import kenya from './Fabulous.png';
 
 
 const AboutOurCoffe=()=>{
@@ -11,17 +11,17 @@ const AboutOurCoffe=()=>{
         <div className="container_our_coffe">
             <div className="grid_our_coffe">
                 <div className="img_our_coffe">
-                    <img src={brazil} alt="" />
+                    <img className="img_aromistico_1" src={kenya} alt="" />
                 </div>
                 <div className="title_our_coffe">
-                AROMISTICO Coffee 1 kg
+                Fabulous land 1 кг
                     <div className="divider_img_our_coffe">
                         <img src={cv} alt="" className="divider_img_our_coffe" />
                     </div>
                     <div className="text_our_coffe">
-                        Country: Brasil<br/>
+                        Country: Kenya<br/>
                         
-                        Price:  6.99$
+                        Price:  13.99$
                     </div>
                 </div>
 
