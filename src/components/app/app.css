@@ -37,9 +37,9 @@
     }
 
     .sub_title_black{
-        margin: 0 13px;
-        width: 80%;
-        height: 289px;
+        width: 371px;
+        margin: 0;
+        
     }
 
     .title_name_ourbest{
@@ -47,8 +47,8 @@
     }
 
     .ourbest{
-        width: 95%;
-        margin: 0 -24px;
+        width: 100%;
+        
     }
 
     .grid_coffe {
