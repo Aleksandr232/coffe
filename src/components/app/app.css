@@ -1,0 +1,37 @@
+@media(max-width: 575px){
+    html {
+        overflow-x: hidden
+    }
+
+    body {
+        overflow-x: hidden
+    }
+
+    .img{
+        width:259%;
+    }
+
+    .header{
+        width: 100%;
+    }
+
+    .text_name{
+        margin: 0 355px;
+    }
+
+    .divider_black{
+        margin: 35px 381px;
+    }
+
+    .sub_title_black{
+        margin: 0 139px;
+    }
+
+    .ourbest{
+        width: 255%;
+    }
+
+    .container_footer {
+        width: 801px;
+    }
+}
