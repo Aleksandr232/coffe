@@ -8,30 +8,51 @@
     }
 
     .img{
-        width:259%;
+        width:100%;
     }
 
     .header{
-        width: 100%;
+        margin: 30px 10px;
+    }
+
+    .title{
+        width: 65%;
+    }
+
+    .divider{
+        margin: 29px 243px;
+    }
+
+    h2{
+        margin-left: -261px 
+    }
+
+
+    .divider_black{
+        margin: 35px 240px;
     }
 
     .text_name{
-        margin: 0 355px;
-    }
-
-    .divider_black{
-        margin: 35px 381px;
+        margin: 0 214px;
     }
 
     .sub_title_black{
-        margin: 0 139px;
+        margin: 0 13px;
+        width: 453px;
     }
 
     .ourbest{
-        width: 255%;
+        width: 90%;
+    }
+
+    .grid_coffe {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,326px);
+        justify-items: center;
+        justify-content: space-evenly;
     }
 
     .container_footer {
-        width: 801px;
+        margin: 0 -436px
     }
 }
