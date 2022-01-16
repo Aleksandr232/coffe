@@ -66,4 +66,55 @@
     .price_coffe{
         padding-right: 53px;
     }
+
+    .grid_our_coffe {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 1065px);
+        justify-items: start;
+        justify-content: center;
+        margin-top: 20px;
+    }   
+
+    .title_for{
+        width: 50%;
+    }
+
+    .title_our_coffe{
+        width: 35%;
+        margin:  10px 0px;
+    }
+
+    .text_our_coffe{
+        width: 374px;
+    }
+
+    .grid_coffee{
+        display: grid;
+        grid-template-columns: repeat(1, 337px);
+        grid-gap: 35px;
+        margin: 18px 26px;
+        justify-items: center;
+        justify-content: space-between;
+    }
+
+    .divider_our_coffe{
+        margin: 491px 71px;
+    }
+
+    .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        justify-content: flex-start;
+        margin: -454px 0;
+        align-content: center;
+        flex-direction: row;
+        align-items: baseline;
+    }    
+
+    .block_coffee{
+        margin: 10px 86px;
+    }
 }
