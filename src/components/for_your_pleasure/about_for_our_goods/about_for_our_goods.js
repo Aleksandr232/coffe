@@ -36,7 +36,7 @@ function AboutForOurGoods() {
             </div>
 
             <div className="divider_for_our_goods"></div>
-            <div className="grid_coffee">
+            <div className="grid_coffee" id='grid'>
             <Link className="grid_coffee" to='/coffee_brazil'>
             <div className="block_coffee">
                     <img src={coffe_block} alt="" className="img_aromistico" />
@@ -45,7 +45,7 @@ function AboutForOurGoods() {
                     <div className="price_coffee">6.99$</div>
                 </div>
             </Link>
-            <Link className="grid_coffee" to='/coffee_brazil_monoarabica'>
+            <Link className="grid_coffee"  to='/coffee_brazil_monoarabica'>
             <div className="block_coffee">
                     <img src={braz} alt="" id='braz' className="img_aromistico" />
                     <div className="name__coffee">Monoarabica Coffee 250 г</div>
@@ -53,7 +53,7 @@ function AboutForOurGoods() {
                     <div className="price_coffee">8.99$</div>
                 </div>
             </Link>
-            <Link className="grid_coffee" to='/coffee_brazil_margogype'>
+            <Link className="grid_coffee"   to='/coffee_brazil_margogype'>
             <div className="block_coffee">
                     <img src={bluz} alt="" id='braz' className="img_aromistico" />
                     <div className="name__coffee">Maragogype Coffee 1 kg</div>
@@ -61,7 +61,7 @@ function AboutForOurGoods() {
                     <div className="price_coffee">7.39$</div>
                 </div>
             </Link>
-            <Link className="grid_coffee" to='/coffee_brazil_le'>
+            <Link className="grid_coffee"  to='/coffee_brazil_le'>
             <div className="block_coffee">
                     <img src={le}  id='braz' alt="" className="img_aromistico" />
                     <div className="name__coffee">Le Piantagioni del Coffee 500 г</div>
@@ -69,7 +69,7 @@ function AboutForOurGoods() {
                     <div className="price_coffee">5.99$</div>
                 </div>
             </Link>
-            <Link className="grid_coffee" to='/coffee_kenya'>
+            <Link className="grid_coffee"  to='/coffee_kenya'>
             <div className="block_coffee">
                     <img src={fabulous} alt="" className="img_aromistico_1" />
                     <div className="name__coffee">Fabulous land Coffee 1 кг </div>
@@ -77,7 +77,7 @@ function AboutForOurGoods() {
                     <div className="price_coffee">13.99$</div>
                 </div>
             </Link>
-            <Link className="grid_coffee" to='/coffee_columbia'>
+            <Link className="grid_coffee"  to='/coffee_columbia'>
             <div className="block_coffee">
                     <img src={col} alt="" className="img_aromistico_2" />
                     <div className="name__coffee">Compagnia Dell'Arabica Coffee 500 г</div>

@@ -117,4 +117,38 @@
     .block_coffee{
         margin: 10px 86px;
     }
+
+    .footer {
+        padding-top: 236px
+    }   
+    
+    .grid_about_for_our_goods {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 1065px);
+        justify-items: start;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .title_for_our_goods{
+        width: 35%;
+        margin: 10px 0px;
+    }
+    
+    .text_for_our_godds{
+        width: 374px;
+    }
+
+    .divider_for_our_goods {
+        display: none;
+    }
+
+    #grid{
+        display: grid;
+        grid-template-columns: repeat(1, 337px);
+        grid-gap: 35px;
+        margin: 523px 26px;
+        justify-items: center;
+        justify-content: space-between;
+    }
 }
