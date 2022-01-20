@@ -8,8 +8,8 @@ import fo from './fo.png';
 
 const FooterOurGoods=()=>{
     return(
-        <section className="footer">
-            <div id='container_footer' className="container_footer">
+        <section id='footer' className="footer">
+            <div  className="container_footer">
                 <div className="grid_footer">
                     <Link  to="/" className="coffe_footer"> 
                     <img src={divider} alt="" className="img_footer"/>
