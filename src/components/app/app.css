@@ -151,4 +151,8 @@
         justify-items: center;
         justify-content: space-between;
     }
+
+    #container_footer{
+        margin: -704px -494px;;
+    }
 }
